@@ -1,0 +1,39 @@
+body {
+  background-image: url(code-background-image.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#info-card {
+  max-height: 100%;
+  max-width: 90%;
+}
+
+#info-card h1 {
+  text-align: center;
+}
+
+#info-card:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 40px 8px rgba(73, 192, 230, 1);
+}
+
+#logo {
+  width: 100%;
+}
+
+#icon{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+  gap:50px; /*Adds space between the icons!*/
+}
